@@ -1,0 +1,94 @@
+# Site settings
+baseURL = "https://jessebarton-204008.appspot.com/"
+languageCode = "en-US"
+title = "Jesse Barton"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Jesse Barton"
+  description = ""
+  shareImage = "images/social.jpg"
+  twitterHandle = "jessebarton95"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2017 Jesse Barton"
+
+  # Section - Content
+  [params.content]
+    name = "Jesse Barton"
+    tagline = "Programmer. Hardware. Devops."
+    bio = "Currently I am a Hardware Support Engineer at Life.Church in Edmond, Oklahoma. I also am a aspiring programmer with experience in Golang and Python."
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "https://medium.com/@jessebarton95"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "jessebarton95@gmail.com"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://www.twitter.com/jessebarton95"
+
+      [[params.links.list2.link]]
+        text = "Medium"
+        url = "https://medium.com/@jessebarton95"
+
+      [[params.links.list2.link]]
+        text = "Github"
+        url = "https://www.github.com/jessebarton/"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Network"
+
+      [[params.links.list3.link]]
+        text = "Life.Church"
+        url = "https://life.church"
+
+      [[params.links.list3.link]]
+        text = "Open Digerati"
+        url = "https://opendigerati.com/"
+
+      [[params.links.list3.link]]
+        text = "My Wife"
+        url = "www.carylenicole.com"
