@@ -26,7 +26,7 @@ googleAnalytics = ""
   [params.content]
     name = "Jesse Barton"
     tagline = "Programmer. Hardware. Devops."
-    bio = "Currently I am a Hardware Support Engineer at Life.Church in Edmond, Oklahoma. I also am a aspiring programmer with experience in Golang and Python."
+    bio = "Currently I am a Software Engineer at Life.Church in Edmond, Oklahoma. I am experienced mainly in Python and Golang as well as limited knowledge with C and C#."
 
   # Section - Visual
   [params.visual]
